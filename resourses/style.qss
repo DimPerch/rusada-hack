@@ -1,0 +1,30 @@
+QMainWindow{
+    background-color: #FFFFFF;
+}
+
+QPushButton{
+    color: #FFFFFF;
+    background-color: #4CB144;
+    font: 12pt "RobotoSlab-Regular";
+    border: none;
+    padding: 5px;
+
+}
+
+QPushButton:hover{
+    color: #000000;
+    background-color: #008000;
+}
+
+QPushButton:disabled{
+    background-color: #95D190;
+}
+
+QLabel{
+    font: 10pt "RobotoSlab-Regular";
+}
+
+QDialog{
+    background-color: #FFFFFF;
+    font: 10pt "RobotoSlab-Regular";
+}
